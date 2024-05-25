@@ -1,0 +1,328 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.dark-mode {
+    background: rgb(3, 17, 92);
+    background: linear-gradient(90deg, rgba(3, 17, 92, 1) 0%, rgba(1, 4, 19, 0.9808298319327731) 100%, rgba(230, 228, 242, 0.9444152661064426) 100%);
+}
+
+a:hover {
+    color: #090580;
+}
+
+#titl1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titl2 {
+    position: absolute;
+    top: 13%;
+    left: 35%;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#i1 {
+    position: absolute;
+    top: -0.5%;
+    left: -2%;
+}
+
+.react-bootstrap-table table {
+    table-layout: fixed;
+}
+
+.table-bordered,
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #e6dede;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 4px;
+    border-color: rgb(255, 253, 253);
+}
+
+
+
+#box1 {
+    position: absolute;
+    top: 29%;
+    left: 5%;
+    color: aliceblue;
+    height: 375%;
+    width: 90%;
+    border-radius: 0.5%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#box2 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#box3 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#box4 {
+    position: absolute;
+    top: 84%;
+    left: 5%;
+    color: aliceblue;
+    height: 40%;
+    width: 20%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#box5 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#box6 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#box7 {
+    position: absolute;
+    top: 130%;
+    left: 5%;
+    color: aliceblue;
+    height: 40%;
+    width: 20%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#box8 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#box9 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#box10 {
+    position: absolute;
+    top: 175%;
+    left: 5%;
+    color: aliceblue;
+    height: 40%;
+    width: 20%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#box11 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#box12 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
+#box13 {
+    position: absolute;
+    top: 220%;
+    left: 5%;
+    color: aliceblue;
+    height: 40%;
+    width: 20%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#box14 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+#box15 {
+    position: absolute;
+    top: 0%;
+    left: 155%;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(15, 42, 191, 0.9808298319327731) 0%, rgba(49, 72, 198, 1) 13%, rgba(228, 228, 242, 0.9444152661064426) 100%);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}

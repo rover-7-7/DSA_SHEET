@@ -1,0 +1,3682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice-Portal</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <center>
+      <h1 id="titl1" style="position: fixed; left: 43%">STRING</h1>
+    </center>
+
+    <button onclick="myFunction()">
+      <img
+        id="image"
+        src="/night.png"
+        style="position: absolute; left: 85%; top: 10%"
+        alt=""
+        width="60"
+        height="30"
+      />
+    </button>
+
+    <script>
+      var i = 0;
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        if (i == 0) {
+          document.getElementById("image").src = "/day.png";
+          i++;
+        } else {
+          document.getElementById("image").src = "/night.png";
+
+          i = 0;
+        }
+      }
+    </script>
+    <center>
+      <h3 id="titl2">
+        <marquee
+          ><h4 style="color: yellow">
+            Sales End ! on 20 th August at
+            <span style="color: red"> 5:00 PM</span>
+          </h4></marquee
+        >
+      </h3>
+    </center>
+
+    <div id="box1">
+      <a href="http://127.0.0.1:5500/MAIN_WINDOW/index.html">
+        <img
+          id="i1"
+          src="https://www.svgrepo.com/show/312948/return-back-button.svg"
+          alt="Return SVG File"
+          title="Return SVG File"
+          width="100"
+          height="100"
+      /></a>
+      <center><h3 id="titl3">PRACTICE-PROBLEMS</h3></center>
+      <div class="react-bootstrap-table">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th data-row-selection="true"></th>
+              <th
+                tabindex="0"
+                style="width: 40px; font-size: 20px; text-align: center"
+              >
+                id
+              </th>
+              <th
+                tabindex="0"
+                style="font-size: 20px; text-align: center; width: 80%"
+              >
+                Questions
+              </th>
+              <th tabindex="0" style="font-size: 20px; text-align: center">
+                Links
+              </th>
+              <th tabindex="0" style="font-size: 20px; text-align: center"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="">
+              <td class="selection-cell">
+                <input type="checkbox" class="" checked="" />
+              </td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                0
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://leetcode.com/problems/reverse-string/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Reverse a String</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr style="">
+              <td class="selection-cell">
+                <input type="checkbox" class="" checked="" />
+              </td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                1
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/palindrome-string0817/1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Check whether a String is Palindrome or not</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr style="">
+              <td class="selection-cell">
+                <input type="checkbox" class="" checked="" />
+              </td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                2
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Find Duplicate characters in a string</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                3
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.baeldung.com/java-string-immutable"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Why strings are immutable in Java?</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                4
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Write a Code to check whether one string is a rotation of
+                    another</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                5
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.programiz.com/java-programming/examples/check-valid-shuffle-of-strings"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Write a Program to check whether a string is a valid
+                    shuffle of two strings or not</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                6
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://leetcode.com/problems/count-and-say/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Count and Say problem</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                7
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Write a program to find the longest Palindrome in a
+                    string.[ Longest palindromic Substring]</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                8
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Find Longest Recurring Subsequence in String</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                9
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/print-subsequences-string/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Print all Subsequences of a string.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                10
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Print all the permutations of the given string</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                11
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/split-the-binary-string-into-substrings-with-equal-number-of-0s-and-1s/1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Split the Binary string into two substring with equal 0’s
+                    and 1’s</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                12
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/word-wrap/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Word Wrap Problem [VERY IMP].</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                13
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/edit-distance3702/1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >EDIT Distance [Very Imp]</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                14
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/next-permutation/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Find next greater number with same set of digits. [Very
+                    Very IMP]</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                15
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/parenthesis-checker/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Balanced Parenthesis problem.[Imp]</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                16
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/word-break/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Word break Problem[ Very Imp]</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                17
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Rabin Karp Algo</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                18
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >KMP Algo</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                19
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Convert a Sentence into its equivalent mobile numeric
+                    keypad sequence.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                20
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/count-the-reversals/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Minimum number of bracket reversals needed to make an
+                    expression balanced.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                21
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Count All Palindromic Subsequence in a given String.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                22
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/find-count-number-given-string-present-2d-character-array/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Count of number of given string in 2D character array</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                23
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/find-the-string-in-grid/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Search a Word in a 2D Grid of characters.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                24
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Boyer Moore Algorithm for Pattern Searching.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                25
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/roman-number-to-integer/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Converting Roman Numerals to Decimal</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                26
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://leetcode.com/problems/longest-common-prefix/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Longest Common Prefix</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                27
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/min-number-of-flips/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Number of flips to make binary string alternate</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                28
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/find-first-repeated-word-string/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Find the first repeated word in string.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                29
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Minimum number of swaps for bracket balancing.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                30
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Find the longest common subsequence between two strings.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                31
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/program-generate-possible-valid-ip-addresses-given-string/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Program to generate all possible valid IP addresses from
+                    given string.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                32
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/smallest-distant-window/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Write a program to find the smallest window that contains
+                    all characters of string itself.</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                33
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/rearrange-characters4649/1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Rearrange characters in a string such that no two adjacent
+                    are same</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                34
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Minimum characters to be added at front to make string
+                    palindrome</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                35
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/k-anagrams-1/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Given a sequence of words, print all anagrams together</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                36
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Find the smallest window in a string containing all
+                    characters of another string</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                37
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/consecutive-elements/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Recursively remove all adjacent duplicates</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                38
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/wildcard-string-matching/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >String matching where one string contains wildcard
+                    characters</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                39
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/function-to-find-number-of-customers-who-could-not-get-a-computer/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Function to find Number of customers who could not get a
+                    computer</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                40
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/transform-one-string-to-another-using-minimum-number-of-given-operation/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Transform One String to Another using Minimum Number of
+                    Given Operation</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                41
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://practice.geeksforgeeks.org/problems/isomorphic-strings/0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Check if two given strings are isomorphic to each other</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="selection-cell"><input type="checkbox" class="" /></td>
+              <td
+                style="
+                  padding: 10px;
+                  font-size: 20px;
+                  cursor: pointer;
+                  text-align: center;
+                "
+              >
+                42
+              </td>
+              <td>
+                <div style="display: flex; justify-content: space-between">
+                  <a
+                    href="https://www.geeksforgeeks.org/recursively-print-all-sentences-that-can-be-formed-from-list-of-word-lists/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="question-link"
+                    style="font-weight: 600; font-size: 20px"
+                    >Recursively print all sentences that can be formed from
+                    list of word lists</a
+                  >
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    gap: 10px;
+                  "
+                >
+                  <img
+                    src="https://img.icons8.com/color/24/000000/GeeksforGeeks.png"
+                    width="30px"
+                    height="25px"
+                    alt="icon"
+                    style="float: right; cursor: pointer"
+                  />
+                </div>
+              </td>
+              <td>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                    style="
+                      float: right;
+                      color: green;
+                      cursor: pointer;
+                      padding-left: 1px;
+                    "
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    ></path></svg
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-sticky"
+                    viewBox="0 0 16 16"
+                    style="float: right; color: green; cursor: pointer"
+                  >
+                    <path
+                      d="M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.086a1.5 1.5 0 0 0 1.06-.44l4.915-4.914A1.5 1.5 0 0 0 15 8.586V2.5A1.5 1.5 0 0 0 13.5 1h-11zM2 2.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5V8H9.5A1.5 1.5 0 0 0 8 9.5V14H2.5a.5.5 0 0 1-.5-.5v-11zm7 11.293V9.5a.5.5 0 0 1 .5-.5h4.293L9 13.793z"
+                    ></path>
+                  </svg>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
